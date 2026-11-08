@@ -26,7 +26,7 @@ on:
         description: 成功后发布 GitHub Release
         type: boolean
         default: true
-  schedule:
+ # schedule:
     # GitHub Actions schedules use UTC: 19:00 UTC is 03:00 in Beijing.
     # - cron: '0 19 * * *'
 
