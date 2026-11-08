@@ -32,7 +32,7 @@ mode = "whole"
 [passwall]
 repository = "https://github.com/Openwrt-Passwall/openwrt-passwall.git"
 branch = "main"
-profiles = ["s20p-mt76", "jdcloud-re-cs-06", "s20p-mtk", "x86-64", "7dr7299-mt76", "7dr7299-mtk"]
+profiles = ["x86-64", "7dr7299-mt76", "7dr7299-mtk"]
 mode = "nested"
 directories = ["luci-app-passwall"]
 
@@ -40,7 +40,7 @@ directories = ["luci-app-passwall"]
 [daed]
 repository = "https://github.com/kenzok8/small.git"
 branch = "master"
-profiles = ["s20p-mt76", "jdcloud-re-cs-06", "s20p-mtk", "x86-64", "7dr7299-mt76", "7dr7299-mtk"]
+profiles = ["x86-64", "7dr7299-mt76", "7dr7299-mtk"]
 mode = "nested"
 directories = ["dae", "daed", "luci-app-daede", "v2ray-geodata"]
 
@@ -56,12 +56,12 @@ version = "1.27"
 [easytier]
 repository = "https://github.com/EasyTier/luci-app-easytier.git"
 branch = "main"
-profiles = ["s20p-mt76", "jdcloud-re-cs-06", "s20p-mtk", "x86-64", "7dr7299-mt76", "7dr7299-mtk"]
+profiles = ["x86-64", "7dr7299-mt76", "7dr7299-mtk"]
 mode = "whole"
 
 # 代理核心
 [honk]
 repository = "https://github.com/189160/luci-app-honk.git"
 branch = "main"
-profiles = ["s20p-mt76", "jdcloud-re-cs-06", "s20p-mtk", "x86-64", "7dr7299-mt76", "7dr7299-mtk"]
+profiles = ["x86-64", "7dr7299-mt76", "7dr7299-mtk"]
 mode = "honk"
