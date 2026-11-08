@@ -193,6 +193,12 @@ path = "target/linux/mediatek/filogic_a73/config-6.6"
 BPF_SYSCALL = "y"
 BPF_JIT = "y"
 NET_SCH_BPF = "y"
+DEBUG_INFO = "y"
+DEBUG_INFO_BTF = "y"
+DEBUG_INFO_REDUCED = "n"
+BPF_EVENTS = "y"
+CGROUP_BPF = "y"
+XDP_SOCKETS = "y"
 
 # 驱动与镜像校验
 [profiles.7dr7299-mtk.expected_config]
