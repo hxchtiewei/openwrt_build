@@ -9,7 +9,7 @@ on:
         type: choice
         default: ''
 #        options: [all, xiaomi-be6500, tenda-be12-pro, s20p-mt76, s20p-mtk, jdcloud-re-cs-06, x86-64, 7dr7299-mt76, 7dr7299-mtk]
-        options: ['', all, 7dr7299-mt76, 7dr7299-mtk]
+        options: ['', 7dr7299-mt76, 7dr7299-mtk, x86-64]
       source_commit:
         description: 可选上游完整提交 SHA（仅单机型）
         type: string
